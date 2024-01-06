@@ -125,7 +125,6 @@ namespace SvgViewer
                     }
                 }
 
-
                 bitmap.Freeze();
 
                 await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();

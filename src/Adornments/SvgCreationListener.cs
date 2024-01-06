@@ -19,6 +19,6 @@ namespace SvgViewer
         public void TextViewCreated(IWpfTextView textView)
         {
             textView.Properties.GetOrCreateSingletonProperty(() => new SvgAdornment(textView));
-        }
+		}
     }
 }
